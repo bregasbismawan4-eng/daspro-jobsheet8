@@ -9,12 +9,12 @@ public class Tugas209 {
         if (n < 3) {
             System.out.println("Nilai n harus minimal 3.");
         } else {
-            int jumlah = 0; // penampung jumlah seluruh angka pada tabel
+            int jumlah = 0; 
 
-            for (int i = 1; i <= n; i++) {          // outer loop: baris
-                for (int j = 1; j <= n; j++) {      // inner loop: kolom
+            for (int i = 1; i <= n; i++) {          
+                for (int j = 1; j <= n; j++) {      
                     int hasil = i * j;
-                    System.out.printf("%4d", hasil); // lebar 4 karakter, rata kanan
+                    System.out.printf("%4d", hasil); 
                     jumlah += hasil;
                 }
                 System.out.println();               
